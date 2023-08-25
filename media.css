@@ -24,6 +24,20 @@
         font-size: 2.8rem;
     }
 
+    /* header */
+
+    .logoPortfolio {
+        font-size: 2.5rem;
+    }
+
+    .fa-bars, .fa-share-nodes {
+        font-size: 2.5rem;
+    }
+
+    .mobileMenuItemHome, .mobileMenuItemAbout, .mobileMenuItemEducation, .mobileMenuItemServices, .mobileMenuItemSkills, .mobileMenuItemContacts {
+        font-size: 1.6rem;
+    }
+
     /* home */
 
     .textTwoMain {
@@ -63,6 +77,20 @@
         margin: 0 auto;
         margin-bottom: 4rem;
         font-size: 3.2rem;
+    }
+
+    /* header */
+
+    .logoPortfolio {
+        font-size: 2.8rem;
+    }
+
+    .fa-bars, .fa-share-nodes {
+        font-size: 2.8rem;
+    }
+
+    .mobileMenuItemHome, .mobileMenuItemAbout, .mobileMenuItemEducation, .mobileMenuItemServices, .mobileMenuItemSkills, .mobileMenuItemContacts {
+        font-size: 1.8rem;
     }
 
     /* home */
@@ -128,7 +156,7 @@
 
     .tabletLaptopMenuItem {
         font-family: var(--ubuntu);
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         font-weight: bold;
         color: var(--white-color);
     }
@@ -245,7 +273,7 @@
     }
 
     .tabletLaptopMenuItem {
-        font-size: 1.8rem;
+        font-size: 2.2rem;
     }
 
     /* home */
