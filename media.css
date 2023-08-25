@@ -1,0 +1,221 @@
+:root {
+    font-size: 62.5%;
+
+    --blue-color: #00294F;
+    --orange-color: #DA5826;
+    --white-color: white;
+
+    --ubuntu: 'Ubuntu', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+/* mobile m, 375px */
+
+@media (min-width: 375px) {
+    .header, .main, .about, .education, .services, .skills, .contacts, .footer {
+        width: 35.5rem;
+    }
+
+    .logoUfc, .logoIbmec {
+        width: 20%;
+    }
+}
+
+/* mobile l, 425px */
+
+@media (min-width: 425px) {
+    .header, .main, .about, .education, .services, .skills, .contacts, .footer {
+        width: 40.5rem;
+    }
+
+    .logoUfc, .logoIbmec {
+        width: 20%;
+    }
+}
+
+/* tablet, 768px */
+
+@media (min-width: 768px) {
+    .header, .main, .about, .education, .services, .skills, .contacts, .footer {
+        width: 74.8rem;
+    }
+
+    .titleAbout, .titleEducation, .titleServices, .titleSkills, .titleContacts {
+        border-bottom: 2px solid var(--orange-color); 
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+        font-size: 2.5rem;
+    }
+
+    .textAbout-1, .textAbout-2, .textEducation, .iconServices, .textServices, .subtitleskills, .textSkills, .textContacts {
+        font-size: 2rem;
+    }
+
+    /* header */
+
+    .logoPortfolio {
+        font-size: 3rem;
+    }
+
+    .navigation-2 i {   /* hide hamburger menu and share button. */
+        display: none;
+    }
+
+    .tabletLaptopMenu {
+        display: flex;
+        justify-content: space-between;
+        gap: 1.8rem;
+    }
+
+    .tabletLaptopMenuItem {
+        font-family: var(--ubuntu);
+        font-size: 1.6rem;
+        font-weight: bold;
+        color: var(--white-color);
+    }
+
+    .tabletLaptopMenuItem:hover {
+        color: var(--orange-color);
+        font-weight: bold;
+        transition: all 0.2s;
+    }
+
+    /* home */
+
+    .main {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 6rem;
+    }
+
+    .textsMain {
+        margin-top: 10rem;
+    }
+
+    .textOneMain, .textThreeMain, .textFourMain {
+        font-size: 2rem;
+    }
+
+    .textTwoMain {
+        font-size: 4rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .textFourMain {
+        margin-bottom: 4rem;
+    }
+
+    .fa-square-whatsapp, .fa-yahoo, .fa-linkedin {
+        font-size: 3.5rem;
+    }
+
+    .imageMain {
+        width: 30%;
+        margin: 10rem 0 0;
+    }
+
+    /* education */
+
+    .logoUfc, .logoIbmec {
+        width: 15%;
+    }
+
+    /* services */
+
+    .alignServices {
+        gap: 3rem;
+    }
+
+    /* skills */
+
+    .iconSkills {
+        font-size: 2rem;
+    }
+    
+    .iconTextSkills {
+        gap: 3rem;
+    }
+
+    /* contacts */
+
+    .iconTextContacts {        
+        gap: 3rem;
+    }
+
+    .fa-whatsapp, .fa-envelope, .fa-linkedin-in {
+        font-size: 2.5rem;
+    }
+
+    /* footer */
+
+    .textFooter {
+        font-size: 1.4rem;
+    }
+}
+
+/* laptop, 1024px */
+
+@media (min-width: 1024px) {
+    .header, .main, .about, .education, .services, .skills, .contacts, .footer {
+        width: 100.4rem;
+    }
+
+    .titleAbout, .titleEducation, .titleServices, .titleSkills, .titleContacts {
+        margin-top: 6rem;
+    }
+
+    /* header */
+
+    .logoPortfolio {
+        font-size: 4rem;
+    }
+
+    .tabletLaptopMenu {
+        gap: 3rem;
+    }
+
+    .tabletLaptopMenuItem {
+        font-size: 1.8rem;
+    }
+
+    /* home */
+
+    .textOneMain, .textThreeMain, .textFourMain {
+        font-size: 2.5rem;
+    }
+
+    .textTwoMain {
+        font-size: 5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .textFourMain {
+        margin-bottom: 4rem;
+    }
+
+    .fa-square-whatsapp, .fa-yahoo, .fa-linkedin {
+        font-size: 4.5rem;
+    }
+
+    .textsMain {
+        margin-top: 12rem;
+        margin-bottom: 4rem;
+    }
+
+    .imageMain {
+        width: 25%;
+        margin-top: 12rem;
+        margin-bottom: 4rem;
+    }
+
+    /* education */
+
+    .logoUfc, .logoIbmec {
+        width: 15%;
+    }
+}

@@ -1,0 +1,434 @@
+/* reset CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --blue-color: #00294F;
+    --orange-color: #DA5826;
+    --white-color: white;
+
+    --ubuntu: 'Ubuntu', sans-serif;
+    --poppins: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* mobile s, 320px */
+
+/* header */
+
+.hide {
+    display: none;
+}
+
+.tabletLaptopMenu {
+    display: none;
+}
+
+.containerHeader {
+    background-color: var(--blue-color);
+
+    /* Way to fixed the header part: */
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.header {
+    width: 30rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logoPortfolio {
+    color: var(--white-color);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.navigation-1 .logoPortfolio span {
+    color: var(--orange-color);
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+}
+
+.navigation-2 {
+    display: flex;
+    gap: 3rem;
+    position: relative;
+}
+
+.mobileMenuHide {
+    display: none;
+}
+
+.mobileMenuOpen {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    top: 4rem;
+    right: 4.5rem;
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 4px 4px 15px var(--blue-color);
+}
+
+.mobileMenuItemHome, .mobileMenuItemAbout, .mobileMenuItemEducation, .mobileMenuItemServices, .mobileMenuItemSkills, .mobileMenuItemContacts {
+    font-style: var(--ubuntu);    
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--blue-color);
+    width: 14rem;
+}
+
+.mobileMenuItemHome:hover, .mobileMenuItemAbout:hover, .mobileMenuItemEducation:hover, .mobileMenuItemServices:hover, .mobileMenuItemSkills:hover, .mobileMenuItemContacts:hover {
+    color: var(--orange-color);
+    text-decoration: underline;
+    transition: all 200ms;
+}
+
+.mobileMenuHide a span {
+    color: var(--orange-color);
+    font-weight: bold;
+}
+
+.fa-bars, .fa-share-nodes {
+    color: var(--white-color);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.fa-bars:hover, .fa-share-nodes:hover {
+    color: var(--orange-color);
+    transition: color 0.2s ease;
+}
+
+.fa-arrow-right {
+    color: var(--orange-color);
+}
+
+.fa-x {
+    color: var(--white-color);
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.fa-x:hover {
+    color: var(--orange-color);
+}
+
+/* home */
+
+.main {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.imageMain {
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+}
+
+.textsMain {
+    padding: 0 2rem;
+    text-align: center; 
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2.5rem;
+    color: var(--blue-color);
+}
+
+.textOneMain {
+    margin-bottom: 1rem;
+}
+
+.textTwoMain {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+
+.textThreeMain {
+    color: var(--orange-color);
+}
+
+.textFourMain {
+    margin-bottom: 2rem;
+    color: var(--orange-color);
+}
+
+.iconsMain {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.fa-square-whatsapp, .fa-yahoo, .fa-linkedin {
+    color: var(--blue-color);
+    font-size: 2.5rem;
+}
+
+.fa-square-whatsapp:hover, .fa-yahoo:hover, .fa-linkedin:hover {
+    color: var(--orange-color);
+    transition: all .2s;
+}
+
+/* about */
+
+.about {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.titleAbout {
+    color: var(--blue-color);
+    text-align: center;
+    margin-bottom: 2rem;   
+    border-bottom: 1px solid var(--orange-color); 
+}
+
+.textAbout-1 {
+    color: var(--blue-color);
+    text-align: justify;
+    font-size: 1.4rem;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.textAbout-2 {
+    color: var(--blue-color);
+    text-align: justify;
+    font-size: 1.4rem;
+    padding: 0 2rem;
+}
+
+/* education */
+
+.education {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.titleEducation {
+    color: var(--blue-color);
+    text-align: center;
+    margin-bottom: 2rem;   
+    border-bottom: 1px solid var(--orange-color); 
+}
+
+.firstEducation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.secondEducation {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.logoUfc, .logoIbmec {
+    width: 25%;
+}
+
+.iconTextEducation {
+    display: flex;
+    gap: 1rem;
+}
+
+.textEducation {
+    color: var(--blue-color);
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+/* services */
+
+.services {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;    /* The standard is 4rem. 2rem because the class "textServices" has 2rem (2rem + 2rem = 4rem). */
+}
+
+.titleServices {
+    color: var(--blue-color);
+    text-align: center;
+    margin-bottom: 2rem;   
+    border-bottom: 1px solid var(--orange-color); 
+}
+
+.alignServices {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+.iconServices {
+    color: var(--orange-color);
+    font-size: 1.6rem;
+}
+
+.textServices {
+    color: var(--blue-color);
+    text-align: left;
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+/* skills */
+
+.skills {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;    /* The standard is 4rem. 2rem because the class "textSkills" has 2rem (2rem + 2rem = 4rem). */
+}
+
+.titleSkills {
+    color: var(--blue-color);
+    text-align: center;
+    margin-bottom: 2rem;   
+    border-bottom: 1px solid var(--orange-color); 
+}
+
+.subtitleskills {
+    color: var(--blue-color);
+    text-align: left;
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+    padding: 0 2rem;
+}
+
+.iconSkills {
+    font-size: 1rem;
+}
+
+.textSkills, .subtitleskills {
+    color: var(--blue-color);
+    text-align: left;
+    font-size: 1.4rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.iconTextSkills {
+    display: flex;
+    align-items: baseline;
+    gap: 1rem;
+    padding: 0 2rem;
+}
+
+/* contacts */
+
+.contacts {
+    width: 30rem;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+
+.titleContacts {
+    color: var(--blue-color);
+    text-align: center;
+    margin-bottom: 2rem;   
+    border-bottom: 1px solid var(--orange-color); 
+    padding: 0 2rem;
+}
+
+.iconTextContacts {
+    display: flex;
+    align-items: baseline;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+
+.textContacts {
+    color: var(--blue-color);
+    font-size: 1.4rem;
+    font-family: var(--poppins);
+    margin-bottom: 1rem;
+}
+
+.fa-whatsapp, .fa-envelope, .fa-linkedin-in {
+    color: var(--orange-color);
+    font-size: 1.8rem;
+}
+
+.fa-whatsapp:hover, .fa-envelope:hover, .fa-linkedin-in:hover {
+    color: var(--blue-color);
+    transition: all .2s;
+}
+
+/* footer */
+
+.containerFooter {
+    background-color: var(--blue-color);
+}
+
+.footer {
+    width: 30rem;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+.textFooter {
+    color: var(--white-color);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.footer-a {
+    color: var(--orange-color);
+    font-weight: bold;
+}
+
+.footer-a:hover {
+    color: var(--white-color);
+    transition: all .2s;
+}
+
+/* .fa-arrow-up-from-bracket {   
+    position: fixed;
+    right: 52rem;
+    bottom: 3rem;
+    color: #DA5826;
+    font-weight: bold;
+} */
