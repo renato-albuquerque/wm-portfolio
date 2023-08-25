@@ -41,7 +41,6 @@
     }
 
     .titleAbout, .titleEducation, .titleServices, .titleSkills, .titleContacts {
-        border-bottom: 2px solid var(--orange-color); 
         width: 60%;
         display: block;
         margin: 0 auto;
@@ -110,7 +109,7 @@
         margin-bottom: 4rem;
     }
 
-    .fa-square-whatsapp, .fa-yahoo, .fa-linkedin {
+    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
         font-size: 3.5rem;
     }
 
@@ -198,7 +197,7 @@
         margin-bottom: 4rem;
     }
 
-    .fa-square-whatsapp, .fa-yahoo, .fa-linkedin {
+    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
         font-size: 4.5rem;
     }
 
