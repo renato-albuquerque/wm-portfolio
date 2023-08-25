@@ -16,6 +16,35 @@
         width: 35.5rem;
     }
 
+    .titleAbout, .titleEducation, .titleServices, .titleSkills, .titleContacts {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+        font-size: 2.8rem;
+    }
+
+    /* home */
+
+    .textTwoMain {
+        margin-bottom: 1rem;
+        font-size: 3.2rem;
+    }
+    
+    .textThreeMain {
+        font-size: 1.6rem;
+    }
+    
+    .textFourMain {
+        font-size: 1.6rem;
+    }
+
+    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
+        font-size: 4rem;
+    }
+
+    /* education */
+
     .logoUfc, .logoIbmec {
         width: 20%;
     }
@@ -27,6 +56,35 @@
     .header, .main, .about, .education, .services, .skills, .contacts, .footer {
         width: 40.5rem;
     }
+
+    .titleAbout, .titleEducation, .titleServices, .titleSkills, .titleContacts {
+        width: 60%;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 4rem;
+        font-size: 3.2rem;
+    }
+
+    /* home */
+
+    .textTwoMain {
+        margin-bottom: 1rem;
+        font-size: 3.5rem;
+    }
+    
+    .textThreeMain {
+        font-size: 1.8rem;
+    }
+    
+    .textFourMain {
+        font-size: 1.8rem;
+    }
+
+    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
+        font-size: 4.2rem;
+    }
+
+    /* education */
 
     .logoUfc, .logoIbmec {
         width: 20%;
@@ -45,7 +103,7 @@
         display: block;
         margin: 0 auto;
         margin-bottom: 4rem;
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 
     .textAbout-1, .textAbout-2, .textEducation, .iconServices, .textServices, .subtitleskills, .textSkills, .textContacts {
@@ -95,22 +153,29 @@
         margin-top: 10rem;
     }
 
-    .textOneMain, .textThreeMain, .textFourMain {
-        font-size: 2rem;
-    }
-
     .textTwoMain {
-        font-size: 4rem;
+        font-size: 5rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
     }
 
+    .textThreeMain {
+        font-size: 2.2rem;
+        margin-top: 1.5rem;
+    }
+
     .textFourMain {
+        margin-top: 0.5rem;
         margin-bottom: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .iconsMain {
+        gap: 5rem;
     }
 
     .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
-        font-size: 3.5rem;
+        font-size: 6rem;
     }
 
     .imageMain {
@@ -166,6 +231,7 @@
 
     .titleAbout, .titleEducation, .titleServices, .titleSkills, .titleContacts {
         margin-top: 6rem;
+        font-size: 4.2rem;
     }
 
     /* header */
@@ -184,21 +250,24 @@
 
     /* home */
 
-    .textOneMain, .textThreeMain, .textFourMain {
-        font-size: 2.5rem;
-    }
-
     .textTwoMain {
-        font-size: 5rem;
+        font-size: 6rem;
         margin-bottom: 2.5rem;
     }
 
+    .textThreeMain {
+        font-size: 2.9rem;
+        margin-top: 3.5rem;
+    }
+
     .textFourMain {
+        margin-top: 1rem;
         margin-bottom: 4rem;
+        font-size: 2.9rem;
     }
 
     .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
-        font-size: 4.5rem;
+        font-size: 6.5rem;
     }
 
     .textsMain {
