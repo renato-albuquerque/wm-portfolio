@@ -33,9 +33,9 @@ function hideMenuHamburger() {
 function share() {
 	if (navigator.share !== undefined) {
 		navigator.share({
-			title: 'Portfólio - Luciano Costa',
-			text: 'Consultor Empresarial',
-			url: 'https://portfolio-lucianocosta.vercel.app/'
+			title: 'Portfólio - Wesly Macedo',
+			text: 'Gestor e Engenheiro de Manutenção Industrial',
+			url: '' /* UPDATE */
 		})
 		.then(() => console.log('Successful share'))
 		.catch((error) => console.log('Error sharing', error));
