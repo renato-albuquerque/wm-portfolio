@@ -107,6 +107,10 @@
 
     /* home */
 
+    .main {
+        margin-top: 3rem;
+    }
+
     .textTwoMain {
         margin-bottom: 1rem;
         font-size: 3.5rem;
@@ -223,8 +227,19 @@
     }
 
     .imageMain {
-        width: 30%;
-        margin: 10rem 0 0;
+        width: max-content;
+        margin: 12rem 0 0;
+    }
+
+    .textsMain {
+        margin-top: 12rem;
+        margin-bottom: 6rem;
+    }
+
+    .imageMain {
+        width: 25%;
+        margin-top: 12rem;
+        margin-bottom: 6rem;
     }
 
     /* education */
@@ -323,14 +338,12 @@
     }
 
     .textsMain {
-        margin-top: 12rem;
-        margin-bottom: 4rem;
+        margin-top: 15rem;
     }
 
     .imageMain {
         width: 25%;
-        margin-top: 12rem;
-        margin-bottom: 4rem;
+        margin-top: 15rem;
     }
 
     /* education */

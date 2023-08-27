@@ -142,11 +142,12 @@ body {
 .main {
     width: 30rem;
     margin: 0 auto;
+    margin-top: 2rem;
     margin-bottom: 4rem;
 }
 
 .imageMain {
-    width: 35%;
+    width: 40%;
     display: block;
     margin: 0 auto;
     border-radius: 50%;
