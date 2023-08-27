@@ -245,7 +245,7 @@ body {
     text-shadow: 2px 2px 3px var(--blue-color);  
 }
 
-.firstEducation {
+.firstEducation, .secondEducation {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -255,7 +255,7 @@ body {
     margin-bottom: 2rem;
 }
 
-.secondEducation {
+.thirdEducation {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -264,13 +264,19 @@ body {
     padding: 0 2rem;
 }
 
-.logoUfc, .logoIbmec {
-    width: 25%;
+.logoUnopar, .logoFasamar, .logoEtec {
+    width: 18%;
 }
 
 .iconTextEducation {
     display: flex;
-    gap: 1rem;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.fa-graduation-cap {
+    color: var(--blue-color);
 }
 
 .textEducation {
@@ -385,7 +391,7 @@ body {
 
 .textContacts {
     color: var(--blue-color);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: var(--poppins);
     margin-bottom: 1rem;
 }
