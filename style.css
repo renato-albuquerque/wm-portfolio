@@ -215,15 +215,23 @@ body {
     text-shadow: 2px 2px 3px var(--blue-color);
 }
 
-.textAbout-1 {
+/* .textAbout-1 {
     color: var(--blue-color);
     text-align: justify;
     font-size: 1.4rem;
     padding: 0 2rem;
     margin-bottom: 1.5rem;
-}
+} */
 
 .textAbout-2 {
+    color: var(--blue-color);
+    text-align: justify;
+    font-size: 1.4rem;
+    padding: 0 2rem;
+    margin-bottom: 2rem;
+}
+
+.textAbout-3 {
     color: var(--blue-color);
     text-align: justify;
     font-size: 1.4rem;
@@ -305,7 +313,7 @@ body {
 .alignServices {
     display: flex;
     align-items: flex-start;
-    gap: 1rem;
+    gap: 2rem;
     padding: 0 2rem;
 }
 
