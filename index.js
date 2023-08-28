@@ -33,7 +33,7 @@ function hideMenuHamburger() {
 function share() {
 	if (navigator.share !== undefined) {
 		navigator.share({
-			title: 'Portfólio - Wesly Macedo',
+			title: 'Portfólio | Wesly Macedo',
 			text: 'Gestor e Engenheiro de Manutenção Industrial',
 			url: '' /* UPDATE */
 		})
