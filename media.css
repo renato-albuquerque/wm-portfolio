@@ -176,7 +176,7 @@
 
     .tabletLaptopMenuItem {
         font-family: var(--ubuntu);
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         font-weight: bold;
         color: var(--white-color);
     }
@@ -306,7 +306,7 @@
     }
 
     .tabletLaptopMenuItem {
-        font-size: 2.2rem;
+        font-size: 2rem;
     }
 
     /* home */
