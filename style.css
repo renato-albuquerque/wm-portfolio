@@ -189,12 +189,12 @@ body {
     gap: 3rem;
 }
 
-.fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
+.fa-square-whatsapp, .fa-square-envelope, .fa-linkedin, .fa-file-pdf {
     color: var(--blue-color);
     font-size: 3.5rem;
 }
 
-.fa-square-whatsapp:hover, .fa-square-envelope:hover, .fa-linkedin:hover {
+.fa-square-whatsapp:hover, .fa-square-envelope:hover, .fa-linkedin:hover, .fa-file-pdf:hover {
     color: var(--orange-color);
     transition: all .2s;
 }
@@ -259,7 +259,7 @@ body {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     padding: 0 2rem;
     margin-bottom: 2rem;
 }
@@ -269,7 +269,7 @@ body {
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 2rem;
     padding: 0 2rem;
 }
 
@@ -286,6 +286,7 @@ body {
 
 .fa-graduation-cap {
     color: var(--blue-color);
+    font-size: 1.6rem;
 }
 
 .textEducation {
@@ -294,7 +295,7 @@ body {
     font-size: 1.4rem;
 }
 
-/* services */
+/* skills */
 
 .services {
     width: 30rem;
@@ -322,6 +323,10 @@ body {
     font-size: 1.6rem;
 }
 
+.fa-gears {
+    font-size: 1.6rem;
+}
+
 .textServices {
     color: var(--blue-color);
     text-align: left;
@@ -330,12 +335,13 @@ body {
     margin-bottom: 2rem;
 }
 
-/* skills */
+/* skills, lp portfolio */
+/* The standard is 4rem. 2rem because the class "textSkills" has 2rem (2rem + 2rem = 4rem). */
 
-.skills {
+/* .skills {
     width: 30rem;
     margin: 0 auto;
-    margin-bottom: 2rem;    /* The standard is 4rem. 2rem because the class "textSkills" has 2rem (2rem + 2rem = 4rem). */
+    margin-bottom: 2rem;    
 }
 
 .titleSkills {
@@ -372,7 +378,7 @@ body {
     align-items: baseline;
     gap: 1rem;
     padding: 0 2rem;
-}
+} */
 
 /* contacts */
 
@@ -406,12 +412,12 @@ body {
 }
 
 .fa-whatsapp, .fa-envelope, .fa-linkedin-in {
-    color: var(--orange-color);
+    color: var(--blue-color);
     font-size: 2.2rem;
 }
 
 .fa-whatsapp:hover, .fa-envelope:hover, .fa-linkedin-in:hover {
-    color: var(--blue-color);
+    color: var(--orange-color);
     transition: all .2s;
 }
 

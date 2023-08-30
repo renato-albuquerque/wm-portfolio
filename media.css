@@ -57,13 +57,13 @@
         font-size: 1.6rem;
     }
 
-    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
+    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin, .fa-file-pdf {
         font-size: 4rem;
     }
 
     /* education */
 
-
+    
 
     /* contacts */
     
@@ -124,7 +124,7 @@
         font-size: 1.8rem;
     }
 
-    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
+    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin, .fa-file-pdf {
         font-size: 4.2rem;
     }
 
@@ -222,7 +222,7 @@
         gap: 5rem;
     }
 
-    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
+    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin, .fa-file-pdf {
         font-size: 6rem;
     }
 
@@ -250,9 +250,7 @@
 
     /* services */
 
-    .alignServices {
-        gap: 3rem;
-    }
+
 
     /* skills */
 
@@ -266,16 +264,12 @@
 
     /* contacts */
 
-    .iconTextContacts {        
-        gap: 3rem;
-    }
-
-    .iconTextEducation {
-        align-items: center;
+    .iconTextContacts {
+        gap: 4rem;
     }
 
     .fa-whatsapp, .fa-envelope, .fa-linkedin-in {
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
 
     /* footer */
@@ -333,7 +327,7 @@
         font-size: 2.9rem;
     }
 
-    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin {
+    .fa-square-whatsapp, .fa-square-envelope, .fa-linkedin, .fa-file-pdf {
         font-size: 6.5rem;
     }
 
@@ -355,4 +349,15 @@
     .logoUnopar, .logoFasamar, .logoEtec {
         width: 12%;
     }
+
+    /* contacts */
+
+    .iconTextContacts {
+        gap: 4rem;
+    }
+
+    .fa-whatsapp, .fa-envelope, .fa-linkedin-in {
+        font-size: 3.5rem;
+    }
+
 }
