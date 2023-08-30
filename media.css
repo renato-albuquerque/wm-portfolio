@@ -38,7 +38,7 @@
         font-size: 2.5rem;
     }
 
-    .mobileMenuItemHome, .mobileMenuItemAbout, .mobileMenuItemEducation, .mobileMenuItemServices, .mobileMenuItemSkills, .mobileMenuItemContacts {
+    .mobileMenuItemHome, .mobileMenuItemAbout, .mobileMenuItemEducation, .mobileMenuItemServices, .mobileMenuItemSkills, .mobileMenuItemContacts, .mobileMenuItemCV {
         font-size: 1.6rem;
     }
 
@@ -101,7 +101,7 @@
         font-size: 2.8rem;
     }
 
-    .mobileMenuItemHome, .mobileMenuItemAbout, .mobileMenuItemEducation, .mobileMenuItemServices, .mobileMenuItemSkills, .mobileMenuItemContacts {
+    .mobileMenuItemHome, .mobileMenuItemAbout, .mobileMenuItemEducation, .mobileMenuItemServices, .mobileMenuItemSkills, .mobileMenuItemContacts, .mobileMenuItemCV {
         font-size: 1.8rem;
     }
 
