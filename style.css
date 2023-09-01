@@ -323,7 +323,7 @@ body {
     font-size: 1.6rem;
 }
 
-.fa-gears {
+.fa-gear {
     font-size: 1.6rem;
 }
 
@@ -333,6 +333,13 @@ body {
     font-size: 1.4rem;
     text-align: justify;
     margin-bottom: 2rem;
+}
+
+/* courses */
+
+.fa-pen-nib {
+    font-size: 1.6rem;
+    color: var(--blue-color);
 }
 
 /* skills, lp portfolio */
@@ -412,12 +419,12 @@ body {
 }
 
 .fa-whatsapp, .fa-envelope, .fa-linkedin-in {
-    color: var(--blue-color);
+    color: var(--orange-color);
     font-size: 2.2rem;
 }
 
 .fa-whatsapp:hover, .fa-envelope:hover, .fa-linkedin-in:hover {
-    color: var(--orange-color);
+    color: var(--blue-color);
     transition: all .2s;
 }
 
