@@ -1,6 +1,10 @@
-# Website Portfolio | Business Consultant | Production Engineer
+# Website Portfolio | 
 
-Freelance project developed for the business consultant and production engineer Luciano Costa. Project has sections of: home, about, education, services, skills, contacts. Project developed in June/2023.
+Project: Portfolio Website (freelance project) for the Maintenance and Operation Industrial Manager Wesly Macedo.
+ 
+"Mobile First" project developed with HTML, CSS and JavaScript. Responsive page for screen sizes: 320px, 375px, 425px, 768px and 1024px. Important features: Dropdown menu (hamburger) and "share" button for sharing the site (For smartphone screens).
+ 
+As a highlight, the knowledge applied was: Responsiveness, JavaScript functions, classList property, toggle method, onclick attribute in HTML, semantic HTML and CSS properties. 
 
 ## Table of contents
 
@@ -26,21 +30,12 @@ Users should be able to:
 ### Screenshot
 
 #### Responsive Viewer
-![screenshot](files/screencapture-allscreens.png)
-
-#### Mobile
-![screenshot](files/screencapture-mobile.png)
-
-#### Tablet
-![screenshot](files/screencapture-tablet.png)
-
-#### Laptop
-![screenshot](files/screencapture-laptop.png)
+![screenshot](files/screencapture-viewer-allscreens.png)
 
 ### Links
 
-- [Solution URL here](https://github.com/renato-albuquerque/lc-portfolio)
-- [Live Site URL here](https://portfolio-lucianocosta.vercel.app/)
+- [Solution URL here](https://github.com/renato-albuquerque/wm-portfolio)
+- [Live Site URL here](https://weslymacedo-portfolio.vercel.app/)
 
 ## My process
 
@@ -54,7 +49,6 @@ Users should be able to:
 
 ## Author
 
-- Business Card - [Renato Albuquerque](https://portfolio-renatoalbuquerque.vercel.app/)
+- Business Card - [Renato Albuquerque](https://rma-contacts.vercel.app/)
 - Linkedin - [renato-malbuquerque](https://www.linkedin.com/in/renato-malbuquerque/)
 - Discord - [Renato Albuquerque#0025](https://discordapp.com/users/992621595547938837)
-- Frontend Mentor - [@renato-albuquerque](https://www.frontendmentor.io/profile/renato-albuquerque)
