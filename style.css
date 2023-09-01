@@ -97,7 +97,7 @@ body {
     box-shadow: 4px 4px 15px var(--blue-color);
 }
 
-.mobileMenuItemHome, .mobileMenuItemAbout, .mobileMenuItemEducation, .mobileMenuItemServices, .mobileMenuItemSkills, .mobileMenuItemContacts, .mobileMenuItemCV {
+.mobileMenuItemHome, .mobileMenuItemAbout, .mobileMenuItemEducation, .mobileMenuItemServices, .mobileMenuItemSkills, .mobileMenuItemContacts/* , .mobileMenuItemCV */ {
     font-style: var(--ubuntu);    
     font-size: 1.5rem;
     font-weight: bold;
@@ -107,6 +107,20 @@ body {
 
 .mobileMenuItemHome:hover, .mobileMenuItemAbout:hover, .mobileMenuItemEducation:hover, .mobileMenuItemServices:hover, .mobileMenuItemSkills:hover, .mobileMenuItemContacts:hover, .mobileMenuItemCV:hover {
     color: var(--orange-color);
+    text-decoration: underline;
+    transition: all 200ms;
+}
+
+.mobileMenuItemCV {
+    font-style: var(--ubuntu);    
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--orange-color);
+    width: 14rem;
+}
+
+.mobileMenuItemCV:hover {
+    color: var(--blue-color);
     text-decoration: underline;
     transition: all 200ms;
 }

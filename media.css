@@ -176,13 +176,26 @@
 
     .tabletLaptopMenuItem {
         font-family: var(--ubuntu);
-        font-size: 1.6rem;
+        font-size: 1.3rem;
         font-weight: bold;
         color: var(--white-color);
     }
 
     .tabletLaptopMenuItem:hover {
         color: var(--orange-color);
+        font-weight: bold;
+        transition: all 0.2s;
+    }
+
+    .tabletLaptopMenuItem span {
+        /* font-family: var(--ubuntu);
+        font-size: 1.3rem;
+        font-weight: bold; */
+        color: var(--orange-color);
+    }
+
+    .tabletLaptopMenuItem:hover span {
+        color: var(--white-color);
         font-weight: bold;
         transition: all 0.2s;
     }
@@ -306,7 +319,7 @@
     }
 
     .tabletLaptopMenuItem {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     /* home */
