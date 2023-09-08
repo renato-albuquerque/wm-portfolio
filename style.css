@@ -470,10 +470,11 @@ body {
     transition: all .2s;
 }
 
-/* .fa-arrow-up-from-bracket {   
+.fa-arrow-up-from-bracket {   
     position: fixed;
-    right: 52rem;
-    bottom: 3rem;
+    right: 1rem;
+    bottom: 3.5rem;
     color: #DA5826;
+    font-size: 3rem;
     font-weight: bold;
-} */
+}

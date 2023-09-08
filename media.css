@@ -290,6 +290,10 @@
     .textFooter {
         font-size: 1.4rem;
     }
+
+    .fa-arrow-up-from-bracket {   
+    font-size: 4rem;
+}
 }
 
 /* laptop, 1024px */
@@ -372,5 +376,4 @@
     .fa-whatsapp, .fa-envelope, .fa-linkedin-in {
         font-size: 3.5rem;
     }
-
 }
