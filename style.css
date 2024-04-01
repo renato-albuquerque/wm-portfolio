@@ -189,13 +189,13 @@ body {
 .textThreeMain {
     color: var(--orange-color);
     font-size: 1.45rem;
+    margin-bottom: 6rem;
 }
 
-.textFourMain {
-    margin-bottom: 2rem;
+/* .textFourMain {
     color: var(--orange-color);
     font-size: 1.45rem;
-}
+} */
 
 .iconsMain {
     display: flex;
